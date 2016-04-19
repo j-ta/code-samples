@@ -54,7 +54,7 @@ The POST request looks like the following:
 ```
 
 Header:
-Content-Type: form-xxx-urlencoded
+Content-Type: application/x-www-form-urlencoded
 
 Body:
 grant_type: password
