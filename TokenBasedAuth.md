@@ -5,11 +5,12 @@ Typical code samples show you how to add authentication to a new standalone WebA
 There are Microsoft libraries that can do this, though there have been enough changes over the years that it can be hard to figure out which one to use. They are also known imprecisely by terms like WIF (Windows Identity Foundation), Identity, Identity 2, and Identity 3 (seems to be in-progress). This describes an implementation using Owin. 
 
 ##1. Add the nuget packages
-> Microsoft.AspNet.Identity.Core
-> Microsoft.Owin
-> Microsoft.Owin.Security
-> Microsoft.Owin.Security.OAuth
-> Owin
+
+* Microsoft.AspNet.Identity.Core
+* Microsoft.Owin
+* Microsoft.Owin.Security
+* Microsoft.Owin.Security.OAuth
+* Owin
 
 ##2. Configure Owin auth
 Create Startup.cs and add a MapOwinRoute to your route config to enable the TokenEndpointPath specified below.
